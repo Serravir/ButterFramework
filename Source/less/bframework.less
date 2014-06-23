@@ -14,8 +14,6 @@ You need to compile the file like 'Winless' or others
 @fontformat: 'ttf'; // Type of font 
 @fontpath: 'font/ClementePDac-ExtraLight.ttf'; // the path of the font
 
-// BFramework Navbar
-@boxshadowfbar: #aaa;
 // - Colors
 @gray: gray;
 @yellow: yellow;
@@ -102,7 +100,7 @@ body
 
 #bfbar > ul {
   border-top: 4px solid #262626;
-  font-family: Clemente, Arial, sans-serif; // TO DO
+  font-family: Clemente, Arial, sans-serif; 
   font-size: 17px;
   background: #1e1e1e;
   background: -moz-linear-gradient(top, #1e1e1e 0%, #040404 100%);
@@ -359,37 +357,37 @@ body
 
 /* MISC */
 
-#sdk
+#sdk // Sdk "Use ButterFramework
 {
     text-align: center;
     color: @gray;
     float: none;
 }
-div.padding
+div.padding // A simple padding, need a background
 {
     padding: 4px;
     border-radius: 25px;
 }
 /* LIST */
-.liststylenone
+.liststylenone // List style
 { 
     list-style-type:none;
 }
 
 /* Float */
-.floatright
+.floatright // Float to right
 {
     float: right;
 }
-.floatleft
+.floatleft // Float to left
 {
     float: left;
 }
-.floatnone
+.floatnone // None 
 {
     float: none;
 }
-
+// Outline
 .outlinestylenone
 {
     outline-style: none;
@@ -461,7 +459,7 @@ img.imgcenter
 }
 /* TEXT MISC */
 
-    // FONT - by Alan Prescott
+// FONT - by Alan Prescott
 
 @font-face 
 {
@@ -471,7 +469,7 @@ img.imgcenter
     
 }
 
-    // set the font 
+// set the font 
 h1,h2,h3,h4,h5,h6,p,a
 {
     font-family: @fontname, Arial, serif;
@@ -480,23 +478,23 @@ h1,h2,h3,h4,h5,h6,p,a
 
 
 // Textsize : the size of text
-.text25
+.text25 // Set 25%
 {
     font-size: 25%;
 }
-.text50
+.text50 // 50%
 {
     font-size: 50%;
 }
-.text100
+.text100 // Default
 {
     font-size:100%;
 }
-.text150
+.text150 // 150%
 {
     font-size: 150%;
 }
-.text200
+.text200 // 200%
 {
     font-size: 200%;
 }
@@ -530,6 +528,7 @@ a.textdnone
 {
     text-decoration: blink;
 }
+// Uppercase/Downcase/...
 .textupperc
 {
     text-transform:uppercase;
@@ -555,7 +554,7 @@ a.textdnone
     text-indent:100px;
 }
 /* P - Letter space */
-p.letterspace5px
+p.letterspace5px // Letterspacing - 5 px
 {
     letter-spacing:5px;  
 }
@@ -575,6 +574,7 @@ p.letterspace1px
 {
     letter-spacing:1px;  
 }
+// WordBreak
 .wordbreak
 {
     word-wrap:break-word;   
@@ -643,7 +643,7 @@ p.letterspace1px
 }
 
 /* Avanced text */
-.textshadowb 
+.textshadowb // Simple shadows text
 {
     text-shadow: 5px 5px 5px #000;
 }
